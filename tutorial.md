@@ -33,16 +33,16 @@ yo @sap/fiori
 4. Folge dem Assistenten und wähle:
    - Wähle "Basic" als Template
    - Data Source: None
-   - View Name: 
-   - Modul Name:
-   - Application Title: 
-   - Application namespace
-   - Descripion:
+   - View Name: meinProjekt
+   - Modul Name: meinProjekt
+   - Application Title: meinProjekt
+   - Application namespace: meinProjekt
+   - Descripion: meine erste SAP App
    - Enable TypeScrip: Geht beides
    - Add deployment configuration: Nein
    - Add FLP configuration: Nein
    - Configure advanced options: Nein
-   - 
+     
 
 ## 2. Projektstruktur verstehen
 
