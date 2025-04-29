@@ -94,6 +94,8 @@ Dies startet einen lokalen Server und öffnet deine App im Browser.
 In dieser Übung zeigen wir eine Liste von Produkten auf unserer Webseite an. 
  
 1. Erstelle eine Mockdaten-Datei unter `webapp/model/products.json`: 
+
+[Weitere Daten](/products.json)
  
 ```json 
 { 
