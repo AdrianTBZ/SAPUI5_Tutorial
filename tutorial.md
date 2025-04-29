@@ -134,17 +134,17 @@ In dieser Übung zeigen wir eine Liste von Produkten auf unserer Webseite an.
 
 ```xml
 <mvc:View
-   controllerName="sap.ui5.tutorial.controller.MainView"
+   controllerName="sap.ui5.tutorial.myfirstapp.controller.MainView"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Page title="Produktübersicht">
       <List
          id="productList"
-         items="{/Products}">
+         items="{products>/Products}">
          <StandardListItem
-            title="{Name}"
-            description="{Category}"
-            info="{Price} {Currency}"
+            title="{products>Name}"
+            description="{products>Category}"
+            info="{products>Price} {Currency}"
             infoState="Success"/>
       </List>
    </Page>
@@ -155,19 +155,19 @@ In dieser Übung zeigen wir eine Liste von Produkten auf unserer Webseite an.
 
 ```javascript
 sap.ui.define([
-   "sap/ui/core/mvc/Controller",
-   "sap/ui/model/json/JSONModel"
-], function (Controller, JSONModel) {
-   "use strict";
-
-   return Controller.extend("sap.ui5.tutorial.controller.MainView", {
-      onInit: function () {
-         // Lade die Mockdaten
-         var oModel = new JSONModel("model/products.json");
-         this.getView().setModel(oModel);
-      }
-   });
-});
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/model/json/JSONModel"
+ ], function (Controller, JSONModel) {
+    "use strict";
+ 
+    return Controller.extend("sap.ui5.tutorial.myfirstapp.controller.MainView", {
+       onInit: function () {
+          // Lade die Mockdaten
+          var oModel = new JSONModel("model/products.json");
+          this.getView().setModel(oModel, "products");
+       }
+    });
+ });
 ```
 
 4. Starte deine App mit `npm start` und prüfe, ob die Produktliste angezeigt wird.
