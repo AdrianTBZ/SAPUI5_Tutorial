@@ -144,7 +144,7 @@ In dieser Übung zeigen wir eine Liste von Produkten auf unserer Webseite an.
          <StandardListItem
             title="{products>Name}"
             description="{products>Category}"
-            info="{products>Price} {Currency}"
+            info="{products>Price} {products>Currency}"
             infoState="Success"/>
       </List>
    </Page>
