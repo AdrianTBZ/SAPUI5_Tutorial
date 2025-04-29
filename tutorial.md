@@ -540,4 +540,5 @@ In diesem Tutorial hast du gelernt:
 
 Als nächste Schritte könntest du:
 - Die Anwendung um eine Bearbeitungsfunktion erweitern
+- Die Anwendung um eine Löschfunktion erweitern
 - Das UI mit zusätzlichen SAPUI5-Controls erweitern
