@@ -1,0 +1,284 @@
+{
+  "Products": [
+    {
+      "ID": "1",
+      "Name": "Laptop",
+      "Price": 999.99,
+      "Currency": "EUR",
+      "Category": "Electronics"
+    },
+    {
+      "ID": "2",
+      "Name": "Smartphone",
+      "Price": 699.99,
+      "Currency": "EUR",
+      "Category": "Electronics"
+    },
+    {
+      "ID": "3",
+      "Name": "Kaffeemaschine",
+      "Price": 129.99,
+      "Currency": "EUR",
+      "Category": "Household"
+    },
+    {
+      "ID": "4",
+      "Name": "Tastatur",
+      "Price": 49.99,
+      "Currency": "EUR",
+      "Category": "Computer"
+    },
+    {
+      "ID": "5",
+      "Name": "Monitor",
+      "Price": 199.99,
+      "Currency": "EUR",
+      "Category": "Computer"
+    },
+    {
+      "ID": "6",
+      "Name": "Staubsauger",
+      "Price": 249.99,
+      "Currency": "EUR",
+      "Category": "Household"
+    },
+    {
+      "ID": "7",
+      "Name": "Kopfhörer",
+      "Price": 89.99,
+      "Currency": "EUR",
+      "Category": "Electronics"
+    },
+    {
+      "ID": "8",
+      "Name": "Bürostuhl",
+      "Price": 149.99,
+      "Currency": "EUR",
+      "Category": "Furniture"
+    },
+    {
+      "ID": "9",
+      "Name": "Mikrowelle",
+      "Price": 99.99,
+      "Currency": "EUR",
+      "Category": "Household"
+    },
+    {
+      "ID": "10",
+      "Name": "Tablet",
+      "Price": 399.99,
+      "Currency": "EUR",
+      "Category": "Electronics"
+    },
+    {
+      "ID": "11",
+      "Name": "Laufschuhe",
+      "Price": 89.99,
+      "Currency": "EUR",
+      "Category": "Sports"
+    },
+    {
+      "ID": "12",
+      "Name": "Tennisracket",
+      "Price": 129.99,
+      "Currency": "EUR",
+      "Category": "Sports"
+    },
+    {
+      "ID": "13",
+      "Name": "Bettwäsche-Set",
+      "Price": 49.99,
+      "Currency": "EUR",
+      "Category": "Home"
+    },
+    {
+      "ID": "14",
+      "Name": "Schreibtischlampe",
+      "Price": 29.99,
+      "Currency": "EUR",
+      "Category": "Furniture"
+    },
+    {
+      "ID": "15",
+      "Name": "Roman: Der Alchemist",
+      "Price": 14.99,
+      "Currency": "EUR",
+      "Category": "Books"
+    },
+    {
+      "ID": "16",
+      "Name": "Reiseführer: Italien",
+      "Price": 19.99,
+      "Currency": "EUR",
+      "Category": "Books"
+    },
+    {
+      "ID": "17",
+      "Name": "Gartenschere",
+      "Price": 24.99,
+      "Currency": "EUR",
+      "Category": "Garden"
+    },
+    {
+      "ID": "18",
+      "Name": "Blumensamen-Set",
+      "Price": 9.99,
+      "Currency": "EUR",
+      "Category": "Garden"
+    },
+    {
+      "ID": "19",
+      "Name": "Kinderwagen",
+      "Price": 299.99,
+      "Currency": "EUR",
+      "Category": "Baby"
+    },
+    {
+      "ID": "20",
+      "Name": "Spielzeugauto",
+      "Price": 19.99,
+      "Currency": "EUR",
+      "Category": "Toys"
+    },
+    {
+      "ID": "21",
+      "Name": "Yoga-Matte",
+      "Price": 39.99,
+      "Currency": "EUR",
+      "Category": "Sports"
+    },
+    {
+      "ID": "22",
+      "Name": "Grill",
+      "Price": 199.99,
+      "Currency": "EUR",
+      "Category": "Garden"
+    },
+    {
+      "ID": "23",
+      "Name": "Babyflasche",
+      "Price": 9.99,
+      "Currency": "EUR",
+      "Category": "Baby"
+    },
+    {
+      "ID": "24",
+      "Name": "Puzzle: 1000 Teile",
+      "Price": 14.99,
+      "Currency": "EUR",
+      "Category": "Toys"
+    },
+    {
+      "ID": "25",
+      "Name": "Schneeschaufel",
+      "Price": 24.99,
+      "Currency": "EUR",
+      "Category": "Garden"
+    },
+    {
+      "ID": "26",
+      "Name": "Gaming-Maus",
+      "Price": 59.99,
+      "Currency": "EUR",
+      "Category": "Computer"
+    },
+    {
+      "ID": "27",
+      "Name": "Fahrradhelm",
+      "Price": 49.99,
+      "Currency": "EUR",
+      "Category": "Sports"
+    },
+    {
+      "ID": "28",
+      "Name": "Kochbuch: Vegetarisch",
+      "Price": 19.99,
+      "Currency": "EUR",
+      "Category": "Books"
+    },
+    {
+      "ID": "29",
+      "Name": "Regal",
+      "Price": 89.99,
+      "Currency": "EUR",
+      "Category": "Furniture"
+    },
+    {
+      "ID": "30",
+      "Name": "Schlafsack",
+      "Price": 79.99,
+      "Currency": "EUR",
+      "Category": "Outdoor"
+    },
+    {
+      "ID": "31",
+      "Name": "Zelt (2 Personen)",
+      "Price": 149.99,
+      "Currency": "EUR",
+      "Category": "Outdoor"
+    },
+    {
+      "ID": "32",
+      "Name": "Wasserflasche (1L)",
+      "Price": 14.99,
+      "Currency": "EUR",
+      "Category": "Outdoor"
+    },
+    {
+      "ID": "33",
+      "Name": "Gitarre",
+      "Price": 199.99,
+      "Currency": "EUR",
+      "Category": "Music"
+    },
+    {
+      "ID": "34",
+      "Name": "Keyboard (Musik)",
+      "Price": 249.99,
+      "Currency": "EUR",
+      "Category": "Music"
+    },
+    {
+      "ID": "35",
+      "Name": "Schlagzeugsticks",
+      "Price": 19.99,
+      "Currency": "EUR",
+      "Category": "Music"
+    },
+    {
+      "ID": "36",
+      "Name": "Kamera",
+      "Price": 499.99,
+      "Currency": "EUR",
+      "Category": "Photography"
+    },
+    {
+      "ID": "37",
+      "Name": "Stativ",
+      "Price": 79.99,
+      "Currency": "EUR",
+      "Category": "Photography"
+    },
+    {
+      "ID": "38",
+      "Name": "Fotoalbum",
+      "Price": 24.99,
+      "Currency": "EUR",
+      "Category": "Photography"
+    },
+    {
+      "ID": "39",
+      "Name": "Lederjacke",
+      "Price": 199.99,
+      "Currency": "EUR",
+      "Category": "Fashion"
+    },
+    {
+      "ID": "40",
+      "Name": "Sneaker",
+      "Price": 99.99,
+      "Currency": "EUR",
+      "Category": "Fashion"
+    }
+  ]
+}
