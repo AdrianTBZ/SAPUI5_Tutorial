@@ -104,28 +104,28 @@ In dieser Übung zeigen wir eine Liste von Produkten auf unserer Webseite an.
       "ID": "1", 
       "Name": "Laptop", 
       "Price": 999.99, 
-      "Currency": "EUR", 
+      "Currency": "CHF", 
       "Category": "Electronics" 
     }, 
     { 
       "ID": "2", 
       "Name": "Smartphone", 
       "Price": 699.99, 
-      "Currency": "EUR", 
+      "Currency": "CHF", 
       "Category": "Electronics" 
     }, 
     { 
       "ID": "3", 
       "Name": "Kaffeemaschine", 
       "Price": 129.99, 
-      "Currency": "EUR", 
+      "Currency": "CHF", 
       "Category": "Household" 
     }, 
     { 
       "ID": "4", 
       "Name": "Tastatur", 
       "Price": 49.99, 
-      "Currency": "EUR", 
+      "Currency": "CHF", 
       "Category": "Computer" 
     } 
   ] 
@@ -508,7 +508,7 @@ sap.ui.define([
             "ID": (iHighestID + 1).toString(), 
             "Name": sName, 
             "Price": fPrice, 
-            "Currency": "EUR", 
+            "Currency": "CHF", 
             "Category": sCategory 
          }); 
           
