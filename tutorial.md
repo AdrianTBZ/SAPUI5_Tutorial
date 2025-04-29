@@ -180,7 +180,7 @@ Wir erweitern unsere App um eine Suchfunktion:
 
 ```xml
 <mvc:View
-   controllerName="sap.ui5.tutorial.controller.MainView"
+   controllerName="sap.ui5.tutorial.myfirstapp.controller.MainView"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Page title="Produktübersicht">
@@ -189,11 +189,11 @@ Wir erweitern unsere App um eine Suchfunktion:
       </Toolbar>
       <List
          id="productList"
-         items="{/Products}">
+         items="{products>/Products}">
          <StandardListItem
-            title="{Name}"
-            description="{Category}"
-            info="{Price} {Currency}"
+            title="{products>Name}"
+            description="{products>Category}"
+            info="{products>Price} {products>Currency}"
             infoState="Success"/>
       </List>
    </Page>
@@ -210,14 +210,14 @@ sap.ui.define([
    "sap/ui/model/FilterOperator"
 ], function (Controller, JSONModel, Filter, FilterOperator) {
    "use strict";
-
-   return Controller.extend("sap.ui5.tutorial.controller.MainView", {
+ 
+    return Controller.extend("sap.ui5.tutorial.myfirstapp.controller.MainView", {
       onInit: function () {
-         // Lade die Mockdaten
-         var oModel = new JSONModel("model/products.json");
-         this.getView().setModel(oModel);
-      },
-      
+          // Lade die Mockdaten
+          var oModel = new JSONModel("model/products.json");
+          this.getView().setModel(oModel, "products");
+       },
+       
       onSearch: function (oEvent) {
          // Erstelle Filter basierend auf dem Suchbegriff
          var sQuery = oEvent.getParameter("query");
