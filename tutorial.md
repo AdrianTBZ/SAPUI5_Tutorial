@@ -40,7 +40,7 @@ yo @sap/fiori
    - Application Title: Meine erste SAPUI5 App
    - Application namespace: sap.ui5.tutorial
    - Description: Grundlagenprojekt für UI5
-   - Enable TypeScript: Geht beides
+   - Enable TypeScript: Nein
    - Add deployment configuration: Nein
    - Add FLP configuration: Nein
    - Configure advanced options: Nein
@@ -580,3 +580,4 @@ In diesem Tutorial hast du gelernt:
 Als nächste Schritte könntest du:
 - Die Anwendung um eine Bearbeitungsfunktion erweitern
 - Das UI mit zusätzlichen SAPUI5-Controls erweitern
+
