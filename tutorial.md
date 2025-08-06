@@ -576,9 +576,8 @@ In diesem Tutorial hast du gelernt:
 - Eine Suchfunktion implementiert
 - Eine Detailansicht für Listenobjekte eingebaut
 - Ein Formular zum Hinzufügen neuer Datensätze erstellt
+- Ein Button zum Löschen himzugefügt
 
 Als nächste Schritte könntest du:
 - Die Anwendung um eine Bearbeitungsfunktion erweitern
 - Das UI mit zusätzlichen SAPUI5-Controls erweitern
-
-
