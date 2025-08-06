@@ -518,7 +518,7 @@ sap.ui.define([
             "Name": sName,
             "Price": fPrice,
             "Currency": "EUR",
-            "Category": 
+            "Category": sCategory
          });
          
          // Aktualisiere Modell
@@ -580,4 +580,5 @@ In diesem Tutorial hast du gelernt:
 Als nächste Schritte könntest du:
 - Die Anwendung um eine Bearbeitungsfunktion erweitern
 - Das UI mit zusätzlichen SAPUI5-Controls erweitern
+
 
